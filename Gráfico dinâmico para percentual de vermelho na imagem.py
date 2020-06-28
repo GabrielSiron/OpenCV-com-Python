@@ -63,7 +63,6 @@ fargs esta recebendo os valores iniciais do grafico (0, 0). Ele recebe como list
 pois, dentro de 'animacao' esses valores correspondem a listas, que serao atualizadas
 com os novos dados
 '''
-
 ani = animation.FuncAnimation(figura, animacao, fargs=([0], [0]), interval=100)
 plt.show()
 
